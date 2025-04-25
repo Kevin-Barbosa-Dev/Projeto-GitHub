@@ -1,0 +1,167 @@
+Criar um campo de busca, onde o usuário digita o nome de um perfil do GitHub
+
+
+Ao clicar no botão de busca, a aplicação deve consumir a API do GitHub e exibir as seguintes informações do usuário, customizando conforme layout do figma:
+
+Nome do usuário
+Foto de perfil
+Bio
+
+Exibir mensagens de erro caso o perfil não seja encontrado
+
+Estilezação
+Ellipse 1
+Width 888px
+Height: 888px
+Top: -268px
+Left: 806px
+
+bg-radial gradiente: rgba(0, 92, 255, 1),rgba(0, 0, 0, 0)
+
+Ellipse 2
+width: 674;
+height: 674;
+top: 198px;
+left: -415px;
+
+bg-radial gradiente: rgba(0, 92, 255, 1),rgba(0, 0, 0, 0)
+
+quadrado com pontos
+width: 239;
+height: 225;
+top: 28px;
+left: 71px;
+
+
+container principal
+width: 1440;
+height: 810;
+background: rgba(31, 31, 31, 1);
+
+container-content
+width: 1156;
+height: 537;
+top: 137px;
+left: 142px;
+background: rgba(0, 0, 0, 1);
+
+logo-perfil-title
+width: 384;
+height: 82;
+top: 176px;
+left: 528px;
+
+img-logo
+width: 58;
+height: 58;
+top: 186px;
+left: 528px;
+
+img-GitHub
+width: 160;
+height: 45;
+top: 195px;
+left: 752px;
+
+Perfil-title
+font-family: Nunito Sans;
+font-weight: 600;
+font-size: 60px;
+line-height: 100%;
+letter-spacing: 0%;
+rgba(255, 255, 255, 1)
+
+campo-search | pleace-holder "Digite um usuário do Github"
+width: 503;
+height: 62;
+top: 285px;
+left: 469px;
+border-radius: 10px;
+border-width: 1px;
+
+#ffffff
+
+
+icone-button
+width: 62;
+height: 62;
+top: 285px;
+left: 910px;
+border-radius: 10px;
+border-width: 1px;
+background: rgba(0, 92, 255, 1);
+
+icone-button img
+width: 25;
+height: 25;
+
+background: #005cff;
+
+container-response
+width: 804;
+height: 257;
+top: 380px;
+left: 318px;
+border-radius: 25px;
+background: #d9d9d9;
+
+
+container-response-info
+width: 700;
+height: 220;
+top: 399px;
+left: 351px;
+border: 2px solid rgba(0, 92, 255, 1)
+
+foto-perfil
+width: 220;
+height: 220;
+top: 399px;
+left: 351px;
+border-width: 2px;
+border: 2px solid rgba(0, 92, 255, 1)
+rgba(0, 92, 255, 1)
+
+nome-bio-container
+width: 448;
+height: 123;
+top: 448px;
+left: 603px;
+
+nome
+font-family: Nunito Sans;
+font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(0, 92, 255, 1)
+
+bio
+font-family: Nunito Sans;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+letter-spacing: 0%;
+color rgba(0, 0, 0, 1)
+
+containerNaoEncontrado
+width: 710;
+height: 88;
+top: 380px;
+left: 365px;
+border-radius: 10px;
+rgba(217, 217, 217, 1)
+
+naoEncontrado
+width: 497;
+height: 54;
+top: 397px;
+left: 472px;
+font-family: Nunito Sans;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color: #ff0000
+
