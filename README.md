@@ -23,10 +23,10 @@ Certifique-se de ter instalado:
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/github-profile-finder.git
+git clone https://github.com/Kevin-Barbosa-Dev/Projeto-GitHub.git
 
 # Acesse o diretório do projeto
-cd github-profile-finder
+cd busca-de-perfil-no-github
 
 # Instale as dependências
 npm install
